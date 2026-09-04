@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENERGYMAX GROUP - maXilin & Omir Kilti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #0d3b0d 100%);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px 0;
+            border-bottom: 3px solid #c9a961;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #c9a961;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #b8b8b8;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #c9a961;
+            margin-bottom: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #c9a961;
+            padding-bottom: 15px;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .product-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid #c9a961;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(201, 169, 97, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product-card h3 {
+            font-size: 1.3em;
+            color: #c9a961;
+            margin-bottom: 10px;
+        }
+
+        .product-card p {
+            font-size: 0.95em;
+            color: #d0d0d0;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #c9a961;
+            color: #1a1a1a;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .feature-tag {
+            background: rgba(201, 169, 97, 0.2);
+            border: 1px solid #c9a961;
+            color: #c9a961;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.9);
+            text-align: center;
+            padding: 30px 20px;
+            border-top: 3px solid #c9a961;
+            margin-top: 60px;
+        }
+
+        footer p {
+            color: #b8b8b8;
+            margin-bottom: 10px;
+        }
+
+        footer .logo {
+            font-size: 1.3em;
+            color: #c9a961;
+            font-weight: bold;
+        }
+
+        .maxilin-section {
+            background: rgba(0, 100, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #00cc00;
+        }
+
+        .omir-section {
+            background: rgba(139, 69, 19, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #8b4513;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌍 ENERGYMAX GROUP</h1>
+        <p>ONE TEAM • ONE DREAM</p>
+    </header>
+
+    <div class="container">
+        <!-- maXilin Section -->
+        <section class="maxilin-section">
+            <h2>🍏 maXilin SuperProbiotics</h2>
+            <p style="text-align: center; margin-bottom: 30px; font-size: 1.1em; color: #b8b8b8;">
+                1 TRILLION CFU • IMMUNITY SUPPORT • DIGESTIVE HEALTH • GUT BALANCE • NATURAL INGREDIENTS
+            </p>
+
+            <div class="products-grid">
+                <!-- maXilin Apple -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/2d5016/ffffff?text=maXilin+Apple" alt="maXilin Apple">
+                    <h3>Apple 🍎</h3>
+                    <p>Яблоко</p>
+                    <div class="features">
+                        <span class="feature-tag">Vitamin C</span>
+                        <span class="feature-tag">Ca</span>
+                        <span class="feature-tag">1 Trillion CFU</span>
+                    </div>
+                    <div class="badge">1 TRILLION CFU SUPERPROBIOTICS</div>
+                </div>
+
+                <!-- maXilin Pineapple -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/2d5016/ffffff?text=maXilin+Pineapple" alt="maXilin Pineapple">
+                    <h3>Pineapple 🍍</h3>
+                    <p>Ананас</p>
+                    <div class="features">
+                        <span class="feature-tag">Vitamin C</span>
+                        <span class="feature-tag">Ca</span>
+                        <span class="feature-tag">Digestive Health</span>
+                    </div>
+                    <div class="badge">1 TRILLION CFU SUPERPROBIOTICS</div>
+                </div>
+
+                <!-- maXilin Lemon -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/2d5016/ffffff?text=maXilin+Lemon" alt="maXilin Lemon">
+                    <h3>Lemon 🍋</h3>
+                    <p>Лимон</p>
+                    <div class="features">
+                        <span class="feature-tag">Vitamin C</span>
+                        <span class="feature-tag">Ca</span>
+                        <span class="feature-tag">Immunity</span>
+                    </div>
+                    <div class="badge">1 TRILLION CFU SUPERPROBIOTICS</div>
+                </div>
+
+                <!-- maXilin Vanilla -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/2d5016/ffffff?text=maXilin+Vanilla" alt="maXilin Vanilla">
+                    <h3>Vanilla 🌸</h3>
+                    <p>Ваниль</p>
+                    <div class="features">
+                        <span class="feature-tag">Vitamin C</span>
+                        <span class="feature-tag">Ca</span>
+                        <span class="feature-tag">Natural</span>
+                    </div>
+                    <div class="badge">1 TRILLION CFU SUPERPROBIOTICS</div>
+                </div>
+
+                <!-- maXilin Guava -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/2d5016/ffffff?text=maXilin+Guava" alt="maXilin Guava">
+                    <h3>Guava 🥭</h3>
+                    <p>Гуава</p>
+                    <div class="features">
+                        <span class="feature-tag">Vitamin C</span>
+                        <span class="feature-tag">Ca</span>
+                        <span class="feature-tag">Gut Balance</span>
+                    </div>
+                    <div class="badge">1 TRILLION CFU SUPERPROBIOTICS</div>
+                </div>
+
+                <!-- maXilin Passion Fruit -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/2d5016/ffffff?text=maXilin+Passion+Fruit" alt="maXilin Passion Fruit">
+                    <h3>Passion Fruit 💜</h3>
+                    <p>Маракуйя</p>
+                    <div class="features">
+                        <span class="feature-tag">Vitamin C</span>
+                        <span class="feature-tag">Ca</span>
+                        <span class="feature-tag">Premium</span>
+                    </div>
+                    <div class="badge">1 TRILLION CFU SUPERPROBIOTICS</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Omir Kilti Section -->
+        <section class="omir-section">
+            <h2>⚡ Omir Kilti L-Arginine</h2>
+            <p style="text-align: center; margin-bottom: 30px; font-size: 1.1em; color: #b8b8b8;">
+                BIOLOGICAL ACTIVE FOOD SUPPLEMENT • PREMIUM QUALITY • 20ml SACHETS
+            </p>
+
+            <div class="products-grid">
+                <!-- L-Arginine G -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/3d2817/ffffff?text=L-Arginine+G" alt="Omir Kilti L-Arginine G">
+                    <h3>L-Arginine G 🌰</h3>
+                    <p>Гвоздичное масло</p>
+                    <p style="font-size: 0.9em; color: #a0a0a0;">Калампыр майы масло гвоздики</p>
+                    <div class="features">
+                        <span class="feature-tag">Clove Oil</span>
+                        <span class="feature-tag">20ml</span>
+                        <span class="feature-tag">Natural</span>
+                    </div>
+                    <div class="badge">БИОЛОГИЧЕСКИ АКТИВНАЯ ДОБАВКА</div>
+                </div>
+
+                <!-- L-Arginine T -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/3d2817/ffffff?text=L-Arginine+T" alt="Omir Kilti L-Arginine T">
+                    <h3>L-Arginine T 🌿</h3>
+                    <p>Чёрный тмин</p>
+                    <p style="font-size: 0.9em; color: #a0a0a0;">Масло чёрного тмина</p>
+                    <div class="features">
+                        <span class="feature-tag">Black Cumin</span>
+                        <span class="feature-tag">20ml</span>
+                        <span class="feature-tag">Premium</span>
+                    </div>
+                    <div class="badge">БИОЛОГИЧЕСКИ АКТИВНАЯ ДОБАВКА</div>
+                </div>
+
+                <!-- L-Arginine M -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/3d2817/ffffff?text=L-Arginine+M" alt="Omir Kilti L-Arginine M">
+                    <h3>L-Arginine M 🌿</h3>
+                    <p>Масло мяты</p>
+                    <p style="font-size: 0.9em; color: #a0a0a0;">Жалбыс майы масло мяты</p>
+                    <div class="features">
+                        <span class="feature-tag">Mint Oil</span>
+                        <span class="feature-tag">20ml</span>
+                        <span class="feature-tag">Cooling</span>
+                    </div>
+                    <div class="badge">БИОЛОГИЧЕСКИ АКТИВНАЯ ДОБАВКА</div>
+                </div>
+
+                <!-- L-Arginine TG -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/280x250/3d2817/ffffff?text=L-Arginine+TG" alt="Omir Kilti L-Arginine TG">
+                    <h3>L-Arginine TG 🌸</h3>
+                    <p>Чёрный тмин + Гвоздика</p>
+                    <p style="font-size: 0.9em; color: #a0a0a0;">Масло гвоздики и чёрного тмина</p>
+                    <div class="features">
+                        <span class="feature-tag">Black Cumin</span>
+                        <span class="feature-tag">Clove Oil</span>
+                        <span class="feature-tag">20ml</span>
+                    </div>
+                    <div class="badge">БИОЛОГИЧЕСКИ АКТИВНАЯ ДОБАВКА</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section>
+            <h2>О КОМПАНИИ</h2>
+            <p style="text-align: center; font-size: 1.05em; line-height: 1.8;">
+                <strong>ENERGYMAX GROUP</strong> — это инновационная компания, специализирующаяся на разработке и производстве 
+                высокопроцентных добавок для здоровья и благополучия. Наши продукты <strong>maXilin</strong> и <strong>Omir Kilti</strong> 
+                созданы на основе научных исследований и натуральных ингредиентов.<br><br>
+                Миссия: <em>"Один коллектив — одна мечта"</em>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="logo">🌍 ENERGYMAX GROUP</div>
+        <p>ONE TEAM • ONE DREAM</p>
+        <p style="font-size: 0.9em; margin-top: 20px;">© 2024 ENERGYMAX GROUP. Все права защищены.</p>
+    </footer>
+</body>
+</html>
